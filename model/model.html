@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>An interesting scene made with WebGL</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="600" height="600">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <script src="./webgl/webgl-utils.js"></script>
+    <script src="./webgl/webgl-debug.js"></script>
+    <script src="./webgl/cuon-utils.js"></script>
+    <script src="./webgl/cuon-matrix.js"></script>
+    <script src="model.js"></script>
+	
+	<table>
+		<p>Model</p>
+		<select id="options">
+			<option value="tank">Tank</option>
+			<option value="alien">Alien</option>
+			<option value="box">Basic Box</option>
+		</select>
+	</table>
+  </body>
+</html>
